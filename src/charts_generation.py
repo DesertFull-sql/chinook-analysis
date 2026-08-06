@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from config import IMAGES_DIR
 
 
 def create_hist_2x2(
@@ -43,7 +44,7 @@ def create_hist_2x2(
     axes[1, 1].set_title(fourth_title)
     
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(IMAGES_DIR / filename)
     
 
 
@@ -113,4 +114,4 @@ def create_bar_2x1(
     )
 
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(IMAGES_DIR / filename)

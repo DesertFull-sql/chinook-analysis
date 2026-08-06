@@ -1,1 +1,0 @@
-DB_URI = "postgresql+psycopg2://postgres:1221@localhost:5432/chinook"
