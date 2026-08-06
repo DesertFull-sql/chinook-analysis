@@ -1,0 +1,4 @@
+pandas==3.0.5
+matplotlib==3.11.1
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
